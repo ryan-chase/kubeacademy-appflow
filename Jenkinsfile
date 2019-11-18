@@ -23,7 +23,6 @@ pipeline {
         }
       }
     }
-     force change
      stage('Validate HTML') {
        steps {
          container('html-proofer') {
